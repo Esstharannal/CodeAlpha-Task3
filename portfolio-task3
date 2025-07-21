@@ -1,0 +1,193 @@
+portfolio
+/*index.html*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav><center>
+      <h1>Essthar Annal J</h1>
+      <h4>Frontend Developer</h4>
+    </nav>
+    </center>
+  </header>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A passionate and dedicated B.Tech student specializing in Information Technology at university college of Engineering ,Trichy. I love turning ideas into real websites and experimenting with HTML, CSS, and JavaScript.I am always eager to develop my skills and embrace new challenges.Outside of coding, I enjoy reading, design, and tech.
+    
+</p>
+
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Calculator App</h3>
+        <p>
+  This calculator app was developed as a part of a web development task. It allows users to perform basic mathematical operations such as +, –, ×, and ÷. The project includes:
+</p>
+<ul>
+  <li>Responsive UI with a dark theme</li>
+  <li>Real-time input and output display</li>
+  <li>Keyboard support for better accessibility</li>
+  <li>Clean, user-friendly button layout</li>
+</ul>
+<p>
+  <strong>Tech Used:</strong> HTML, CSS, JavaScript
+</p>
+<p>
+
+      </div>
+      <div class="project-card">
+        <h3>Image gallery</h3>
+        <p>
+  This gallery project displays a collection of themed images in a flexible, mobile-friendly layout. Key features include:
+</p>
+<ul>
+  <li>Responsive grid layout using CSS Flexbox/Grid</li>
+  <li>Hover zoom and fade animations</li>
+  <li>Category filtering and lightbox (optional with JS)</li>
+  <li>Supports various image types and custom themes (e.g. nature, food, art)</li>
+</ul>
+<p>
+  <strong>Tech Used:</strong> HTML, CSS, JavaScript
+</p>
+      </div>
+    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>python</li>
+      <li>c</li>
+      <li>java</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+ <p>Email: <a href="mailto:you@example.com">esstharannal82gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/essthar-annal-a02102335</a></p>
+    
+  </section>
+
+  <footer>
+    <p>© 2025 Essthar Annal J | Intern</p>
+    
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+/*style.css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #111;
+  scroll-behavior: smooth;
+}
+
+header {
+  background:#1B4543;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 45px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  gap: 15px;
+  padding-top: 50px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color:#f3d568;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.project-list {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.project-card {
+  background: #B3D0C6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills li {
+  background:#7acaef;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  list-style: none;
+}
+.contact{
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background:#1B4543;
+  color: #fff;
+}
+
+
+/*script.js*/
+
+console.log("Portfolio loaded successfully.");
